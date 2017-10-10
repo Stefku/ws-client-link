@@ -1,18 +1,14 @@
 {
   "name": "ws-client-link",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "",
   "homepage": "",
   "author": {
     "name": "Stefan Zeller"
   },
-  "files": [
-    "lib"
-  ],
+  "files": ["lib"],
   "main": "lib/index.js",
-  "keywords": [
-    ""
-  ],
+  "keywords": [""],
   "devDependencies": {
     "nsp": "^2.6.3",
     "eslint": "^4.1.0",
@@ -32,20 +28,11 @@
     "test": "jest"
   },
   "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ],
-    "*.json": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.js": ["eslint --fix", "git add"],
+    "*.json": ["prettier --write", "git add"]
   },
   "eslintConfig": {
-    "extends": [
-      "xo",
-      "prettier"
-    ],
+    "extends": ["xo", "prettier"],
     "env": {
       "jest": true,
       "node": true
@@ -59,9 +46,7 @@
         }
       ]
     },
-    "plugins": [
-      "prettier"
-    ]
+    "plugins": ["prettier"]
   },
   "repository": "stefku/ws-client-link",
   "jest": {
