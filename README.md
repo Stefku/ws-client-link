@@ -1,6 +1,4 @@
-# ws-client-link [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency 
-Status][daviddm-image]][daviddm-url]
-> 
+# ws-client-link [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![DependencyStatus][daviddm-image]][daviddm-url]> 
 
 ## Installation
 
